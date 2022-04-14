@@ -23,7 +23,7 @@
         <div class="text-gray-700 col-span-2">
             <img src="{{ $SeeCurso->image }}" class="rounded">
             <h2 class="text-4xl">{{ $SeeCurso->name }}</h2>
-            <p>{{ $SeeCurso->description }}</p>
+            <p class="text-justify text-purple-800">{{ $SeeCurso->description }}</p>
         
             <div class="flex mt-3">
                 <img 
